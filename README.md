@@ -18,3 +18,7 @@ The QA walkthrough is available at `/app_check.html` after the frontend build is
 - `output/`: harness, design, usability, QA, and assignment documentation.
 
 Never commit `.env`, API keys, user data, or the Campus Customs database.
+
+## GitHub Pages
+
+The static storefront deploys automatically from `main` through `.github/workflows/pages.yml` at `https://x333x369x.github.io/campus-customs-hw4/`. GitHub Pages cannot run the FastAPI/PydanticAI backend; the chat API requires a separate backend host.
