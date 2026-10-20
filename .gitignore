@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+campus_customs.db
+backend/static/
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
